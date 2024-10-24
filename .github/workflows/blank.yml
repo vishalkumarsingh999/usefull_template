@@ -33,6 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           pip install ipynb,
-          nyxssmith/IPYNB_to_MD@0.2,
-          notebook 
+          jupyter notebook ML_Template_using__kaggle_Datasets.ipynb
           echo test, and deploy your project.
